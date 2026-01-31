@@ -1,0 +1,32 @@
+{
+  "name": "003_social-links-profile",
+  "version": "1.0.0",
+  "description": "Frontend Mentor free challenge 003 (level: newbie)",
+  "keywords": [
+    "html",
+    "css",
+    "tailwind",
+    "frontend",
+    "challenge"
+  ],
+  "homepage": "https://github.com/daan98/social-links-profile#readme",
+  "bugs": {
+    "url": "https://github.com/daan98/social-links-profile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daan98/social-links-profile.git"
+  },
+  "license": "ISC",
+  "author": "Daniel Agüero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "npx tailwindcss -i ./style/input.css -o ./style/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}

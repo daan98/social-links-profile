@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bright-green: hsl(75, 94%, 57%);
+    --color-personal-grey-700: hsl(0, 0%, 20%);
+    --color-personal-grey-800: hsl(0, 0%, 12%);
+    --color-personal-grey-900: hsl(0, 0%, 8%);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

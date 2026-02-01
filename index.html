@@ -11,30 +11,57 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 10px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-personal-grey-900 min-h-screen flex items-center justify-center p-4 lg:p-0">
+<body class="bg-personal-grey-900 min-h-screen flex items-center justify-center p-4 lg:p-0 text-xs lg:text-sm">
 
-  <main class="flex flex-col items-center justify-center gap-4 w-1/5 lg:w-4/5">
-    <div id="social-link-container" class="bg-personal-grey-800 rounded-[10px] flex flex-col items-center py-2.5 px-3.5 gap-2.5 w-2/5">
-      <div id="social-card-header" class="flex flex-col items-center">
+  <main class="flex flex-col items-center justify-center gap-4 lg:w-4/5">
+    <div id="social-link-container" class="bg-personal-grey-800 rounded-[10px] flex flex-col items-center p-10 gap-4 w-full lg:w-2/5">
+      <div id="social-card-header" class="flex flex-col items-center text-center gap-5">
         <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall Avatar" class="rounded-full h-24 w-24">
-        <h2 class="text-white font-inter-bold">Jessica Randall</h2>
-        <p class="text-bright-green font-semibold">London, United Kingdom</p>
+        <div class="flex flex-col gap-1.5">
+          <h2 class="text-white font-inter-bold text-[22px] lg:text-2xl font-semibold">Jessica Randall</h2>
+          <p class="text-bright-green font-bold">London, United Kingdom</p>
+        </div>
         <span class="text-gray-400">"Front-end developer and avid reader."</span>
       </div>
 
       <div id="social-card-links" class=" flex flex-col w-full gap-3.5 text-center">
-        <a href="" class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300">GitHub</a>
-        <a href="" class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300">Frontend Mentor</a>
-        <a href="" class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300">LinkedIn</a>
-        <a href="" class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300">Twitter</a>
-        <a href="" class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300">Instagram</a>
+        <a 
+          href=""
+          class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 animate-fade-in [animation-duration:0.3s] hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300"
+          >
+            GitHub
+          </a>
+        <a
+          href=""
+          class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 animate-fade-in [animation-duration:0.5s] hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300"
+          >
+            Frontend Mentor
+          </a>
+        <a
+          href=""
+          class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 animate-fade-in [animation-duration:0.7s] hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300"
+          >
+            LinkedIn
+          </a>
+        <a
+          href=""
+          class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 animate-fade-in [animation-duration:0.9s] hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300"
+          >
+            Twitter
+          </a>
+        <a
+          href=""
+          class="bg-personal-grey-700 text-white font-semibold rounded-lg py-2.5 hover:bg-bright-green transition-all ease-in-out duration-300 animate-fade-in [animation-duration:1.1s] hover:text-personal-grey-900 hover:transition-all hover:ease-in-out hover:duration-300"
+          >
+            Instagram
+          </a>
       </div>
     </div>
-    <div class="attribution">
+    <div class="attribution text-white bg-[rgba(197,248,42,0.7)] rounded-md p-4 mt-4 w-full lg:w-2/5 sm:text-[11px]">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Daniel Agüero</a>.
     </div>
